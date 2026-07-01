@@ -14,9 +14,9 @@ from statsmodels.tools import add_constant
 # 1. DATOS
 # ══════════════════════════════════════════════
 
-PAR    = ('AAPL', 'MSFT')
+PAR    = ('V', 'MA')
 INICIO = '2010-01-01'
-NOMBRE = {'AAPL': 'Apple', 'MSFT': 'Microsoft'}
+NOMBRE = {'V': 'Visa', 'MA': 'Mastercard'}
 
 print(f"Descargando {NOMBRE[PAR[0]]} vs {NOMBRE[PAR[1]]}...")
 
